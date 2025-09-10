@@ -84,5 +84,7 @@ jobs:
           git push origin gh-pages
 
       - name: Show Allure Report URL
-        run: echo "✅ Allure Report: https://nishenaryan14.github.io/Playwright/"
+        run: |
+          echo "✅ Allure Report: https://nishenaryan14.github.io/Playwright/"
+
 
