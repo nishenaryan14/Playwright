@@ -1,4 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1761","should successfully log in with valid credentials","chromium","Wed Sep 10 05:55:18 UTC 2025","passed","Wed Sep 10 05:55:20 UTC 2025","OrangeHRM Login Scenarios","orangehrm-tests/specs/login.test.js","",""
 "","27326","should successfully log in with valid credentials","firefox","Wed Sep 10 04:49:33 UTC 2025","passed","Wed Sep 10 04:50:00 UTC 2025","OrangeHRM Login Scenarios","orangehrm-tests\specs\login.test.js","",""
+"","2376","should successfully log in with valid credentials","chromium","Wed Sep 10 10:04:56 UTC 2025","passed","Wed Sep 10 10:04:58 UTC 2025","OrangeHRM Login Scenarios","tests/orangehrm-tests/specs/login.test.js","",""
+"","22949","should successfully log in with valid credentials","chromium","Wed Sep 10 04:49:33 UTC 2025","passed","Wed Sep 10 04:49:56 UTC 2025","OrangeHRM Login Scenarios","orangehrm-tests\specs\login.test.js","",""
 "","18718","should successfully log in with valid credentials","webkit","Wed Sep 10 04:49:33 UTC 2025","passed","Wed Sep 10 04:49:52 UTC 2025","OrangeHRM Login Scenarios","orangehrm-tests\specs\login.test.js","",""
