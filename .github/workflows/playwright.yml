@@ -69,3 +69,16 @@ jobs:
           name: allure-report
           path: allure-report/
           retention-days: 14
+
+      - name: Deploy Allure Report to GitHub Pages
+        if: success()
+        run: |
+          git config --global user.email "aryannishen27@gmail.com"
+          git config --global user.name "Aryan Nishen"
+          git clone --branch gh-pages https://github.com/nishenaryan14/Playwright.git gh-pages
+          rm -rf gh-pages/*
+          cp -r allure-report/* gh-pages/
+          cd gh-pages
+          git add .
+          git commit -m "Update Allure report"
+          git push origin gh-pages
